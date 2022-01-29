@@ -1,0 +1,13 @@
+{
+  "name": "Dashbored",
+  "description": "Notifies you when the doordasher is close to home",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["notifications"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
